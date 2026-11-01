@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#07152e">
+<meta name="theme-color" content="#080d1b">
 <title>Rishabh S Malode | Data Analyst</title>
-<style>html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:#061228}</style>
+<style>html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#171a36 0%,#080d1b 55%);}</style>
 </head>
 <body>
 <div id="rishabh-portfolio-preview">
@@ -239,8 +239,263 @@
     #rishabh-portfolio-preview .rp-footer{position:relative}
     #rishabh-portfolio-preview .rp-footer span:last-child{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
     @media(max-width:700px){#rishabh-portfolio-preview .rp-footer{flex-wrap:wrap;row-gap:8px}#rishabh-portfolio-preview .rp-footer span:last-child{position:static;transform:none;width:100%;text-align:center}}
-`n    #rishabh-portfolio-preview .rp-credentials-grid{align-items:stretch;gap:18px;margin-top:20px}`n    #rishabh-portfolio-preview .rp-credential-panel{padding:20px 22px;background:linear-gradient(145deg,#112b52,#0b2040);border:1px solid #294c79;border-radius:12px;box-shadow:inset 0 1px 0 #8bcaff12}`n    #rishabh-portfolio-preview .rp-subhead{font-size:12px;letter-spacing:.1em;color:#79e6ed;margin-bottom:10px}`n    #rishabh-portfolio-preview .rp-education-row{gap:16px;padding:14px 0 4px}`n    #rishabh-portfolio-preview .rp-education-row time{padding:5px 8px;background:#183866;border:1px solid #315b8a;border-radius:6px;color:#9cebf0;font-weight:700}`n    #rishabh-portfolio-preview .rp-education-row span{margin-top:4px}`n    #rishabh-portfolio-preview .rp-cert{padding:13px 0}`n    #rishabh-portfolio-preview .rp-cert a{padding:6px 9px;border:1px solid #4d7fc2;border-radius:6px;background:#163766}`n    #rishabh-portfolio-preview .rp-cert a:hover{border-color:#61e8ef;color:#a7fbf5}`n    @media(max-width:700px){#rishabh-portfolio-preview .rp-credential-panel{padding:16px}#rishabh-portfolio-preview .rp-education-row{flex-wrap:wrap;gap:8px}}`n  </style>
-  <header class="rp-header">
+    #rishabh-portfolio-preview .rp-credentials-grid{align-items:stretch;gap:18px;margin-top:20px}
+    #rishabh-portfolio-preview .rp-credential-panel{padding:20px 22px;background:linear-gradient(145deg,#112b52,#0b2040);border:1px solid #294c79;border-radius:12px;box-shadow:inset 0 1px 0 #8bcaff12}
+    #rishabh-portfolio-preview .rp-subhead{font-size:12px;letter-spacing:.1em;color:#79e6ed;margin-bottom:10px}
+    #rishabh-portfolio-preview .rp-education-row{gap:16px;padding:14px 0 4px}
+    #rishabh-portfolio-preview .rp-education-row time{padding:5px 8px;background:#183866;border:1px solid #315b8a;border-radius:6px;color:#9cebf0;font-weight:700}
+    #rishabh-portfolio-preview .rp-education-row span{margin-top:4px}
+    #rishabh-portfolio-preview .rp-cert{padding:13px 0}
+    #rishabh-portfolio-preview .rp-cert a{padding:6px 9px;border:1px solid #4d7fc2;border-radius:6px;background:#163766}
+    #rishabh-portfolio-preview .rp-cert a:hover{border-color:#61e8ef;color:#a7fbf5}
+    @media(max-width:700px){#rishabh-portfolio-preview .rp-credential-panel{padding:16px}#rishabh-portfolio-preview .rp-education-row{flex-wrap:wrap;gap:8px}}
+
+    #rishabh-portfolio-preview{
+      --rp-bg:#070a16;
+      --rp-ink:#eff5ff;
+      --rp-muted:#a8b7d2;
+      --rp-soft:#7789aa;
+      --rp-line:#28334f;
+      --rp-blue:#9ca8ff;
+      --rp-pale:#121a31;
+      --rp-navy:#090e1e;
+      --rp-cyan:#77f3dd;
+      max-width:1180px;
+      background:#080d1b;
+      border-inline:1px solid #202941;
+      box-shadow:0 0 90px #030610aa;
+    }
+    #rishabh-portfolio-preview .rp-header{
+      position:sticky;
+      top:0;
+      z-index:10;
+      height:72px;
+      background:#080d1be8;
+      border-bottom:1px solid #28334f;
+      backdrop-filter:blur(18px);
+    }
+    #rishabh-portfolio-preview .rp-mark{
+      border:1px solid #a6aaff70;
+      border-radius:11px;
+      background:linear-gradient(145deg,#8c7dff,#4a5eff 55%,#28c6cd);
+      box-shadow:0 0 24px #6c70ff55,inset 0 1px 0 #ffffff66;
+    }
+    #rishabh-portfolio-preview .rp-nav a,
+    #rishabh-portfolio-preview .rp-contact-link,
+    #rishabh-portfolio-preview .rp-repo,
+    #rishabh-portfolio-preview .rp-cert a{transition:color .2s,border-color .2s,background .2s}
+    #rishabh-portfolio-preview .rp-nav a:hover,
+    #rishabh-portfolio-preview .rp-repo:hover{color:#77f3dd}
+    #rishabh-portfolio-preview .rp-contact-link{
+      border:1px solid #6f7ce880;
+      border-radius:999px;
+      background:#161d38;
+      color:#b9c3ff;
+      padding:8px 15px;
+    }
+    #rishabh-portfolio-preview .rp-contact-link:hover{
+      border-color:#77f3dd;
+      background:#182d3b;
+      color:#a5fff0;
+    }
+    #rishabh-portfolio-preview .rp-hero{
+      min-height:430px;
+      padding:64px 48px;
+      background-image:
+        radial-gradient(ellipse at 82% 15%,#4c42a744,transparent 35%),
+        radial-gradient(ellipse at 15% 92%,#087e8a33,transparent 42%),
+        linear-gradient(#9aaeff0b 1px,transparent 1px),
+        linear-gradient(90deg,#9aaeff0b 1px,transparent 1px),
+        linear-gradient(120deg,#0b1021 0%,#121a36 55%,#101d35 100%);
+      background-size:auto,auto,32px 32px,32px 32px,cover;
+      border-bottom:1px solid #343657;
+      border-radius:0;
+      box-shadow:inset 0 -1px 0 #77f3dd15,0 24px 70px #02040c88;
+    }
+    #rishabh-portfolio-preview .rp-hero:before{
+      width:540px;
+      height:540px;
+      right:-180px;
+      top:-260px;
+      background:radial-gradient(circle,#9c8cff35 0%,#77f3dd08 48%,transparent 70%);
+    }
+    #rishabh-portfolio-preview .rp-hero:after{
+      border-color:#77f3dd40;
+      box-shadow:0 0 0 24px #77f3dd0d,0 0 0 48px #8d87ff0a;
+    }
+    #rishabh-portfolio-preview .rp-eyebrow{
+      color:#aab8d4;
+      letter-spacing:.16em;
+    }
+    #rishabh-portfolio-preview .rp-hero .rp-eyebrow{color:#c3cae4}
+    #rishabh-portfolio-preview .rp-hero h1 span{
+      color:#9ff5e7;
+      text-shadow:0 0 34px #67e9d53d;
+    }
+    #rishabh-portfolio-preview .rp-dot{
+      box-shadow:0 0 8px #61e8ef,0 0 22px #61e8ef88;
+    }
+    #rishabh-portfolio-preview .rp-button{border-radius:999px}
+    #rishabh-portfolio-preview .rp-button-primary{
+      background:linear-gradient(110deg,#83f4db,#70d9ec);
+      box-shadow:0 0 28px #6fe8df2b;
+    }
+    #rishabh-portfolio-preview .rp-button-outline{
+      border-color:#747ba8;
+      background:#11172dbb;
+    }
+    #rishabh-portfolio-preview .rp-toolbox{
+      border-color:#6773a566;
+      border-radius:18px;
+      background:linear-gradient(145deg,#1b2240d9,#101a2ee8);
+      box-shadow:0 24px 64px #01040d99,0 0 36px #7869ff18,inset 0 1px 0 #ffffff12;
+    }
+    #rishabh-portfolio-preview .rp-toolbox:before{
+      height:2px;
+      background:linear-gradient(90deg,transparent,#77f3dd,#9385ff,#77f3dd,transparent);
+    }
+    #rishabh-portfolio-preview .rp-tool-list span{
+      border:1px solid #6d79a333;
+      border-radius:999px;
+      background:#202a48;
+      color:#d5e5ff;
+      box-shadow:inset 0 1px 0 #ffffff10;
+    }
+    #rishabh-portfolio-preview .rp-flow-engine{
+      border-color:#77f3ddaa;
+      background:radial-gradient(circle at 35% 25%,#304d70,#11182d 75%);
+      box-shadow:0 0 42px #35cfe355,inset 0 0 26px #5db8e522;
+    }
+    #rishabh-portfolio-preview .rp-flow-output,
+    #rishabh-portfolio-preview .rp-flow-source{
+      border-color:#6476a277;
+      background:linear-gradient(145deg,#1c2948ed,#10182deb);
+      backdrop-filter:blur(10px);
+    }
+    #rishabh-portfolio-preview .rp-strip{
+      justify-content:center;
+      background:#0b1020;
+      border-top-color:#28334f;
+      border-bottom:1px solid #28334f;
+      color:#9baac6;
+      letter-spacing:.12em;
+    }
+    #rishabh-portfolio-preview .rp-section,
+    #rishabh-portfolio-preview .rp-experience,
+    #rishabh-portfolio-preview .rp-credentials{
+      background-color:#0b1020;
+      background-image:radial-gradient(ellipse at 95% 0%,#514c9c24,transparent 38%);
+    }
+    #rishabh-portfolio-preview .rp-section-title:after{
+      width:58px;
+      height:3px;
+      background:linear-gradient(90deg,#77f3dd,#8c7dff,transparent);
+      box-shadow:0 0 14px #77f3dd44;
+    }
+    #rishabh-portfolio-preview .rp-project{
+      position:relative;
+      overflow:hidden;
+      border:1px solid #384260;
+      border-top:1px solid #6778a5;
+      border-radius:15px;
+      background:linear-gradient(145deg,#151d34,#101729 72%);
+      box-shadow:0 14px 34px #02040c66,inset 0 1px 0 #ffffff0c;
+    }
+    #rishabh-portfolio-preview .rp-project:before{
+      content:"";
+      position:absolute;
+      top:0;
+      left:18px;
+      width:54px;
+      height:2px;
+      background:linear-gradient(90deg,#77f3dd,#9385ff);
+      box-shadow:0 0 16px #77f3dd88;
+    }
+    #rishabh-portfolio-preview .rp-project:hover{
+      transform:translateY(-5px);
+      border-color:#7180ad;
+      box-shadow:0 20px 42px #02040c99,0 0 28px #766bff1d;
+    }
+    #rishabh-portfolio-preview .rp-no{
+      border-radius:9px;
+      background:linear-gradient(140deg,#7166dc,#2b9ba8);
+      box-shadow:0 0 18px #6666e744;
+    }
+    #rishabh-portfolio-preview .rp-tags span{
+      border:1px solid #6b789733;
+      border-radius:999px;
+      background:#1b2440;
+      color:#c9d6f1;
+    }
+    #rishabh-portfolio-preview .rp-finding{
+      border:1px solid #4b7f8277;
+      border-left:3px solid #77f3dd;
+      background:linear-gradient(110deg,#173239,#17243b);
+    }
+    #rishabh-portfolio-preview .rp-finding b,
+    #rishabh-portfolio-preview .rp-skill b,
+    #rishabh-portfolio-preview .rp-contact-copy small{color:#83e9dc}
+    #rishabh-portfolio-preview .rp-about{
+      background:radial-gradient(ellipse at 8% 50%,#1d3b5433,transparent 48%),#0a0f1f;
+    }
+    #rishabh-portfolio-preview .rp-skill,
+    #rishabh-portfolio-preview .rp-education-row,
+    #rishabh-portfolio-preview .rp-cert{border-color:#29344e}
+    #rishabh-portfolio-preview .rp-experience-card{
+      border:1px solid #3b4969;
+      border-left:3px solid #77f3dd;
+      border-radius:15px;
+      background:linear-gradient(145deg,#17223b,#10182b);
+      box-shadow:0 16px 38px #02040c66,inset 0 1px 0 #ffffff0c;
+    }
+    #rishabh-portfolio-preview .rp-experience-card time{color:#83e9dc}
+    #rishabh-portfolio-preview .rp-credential-panel{
+      border-color:#3a4664;
+      border-radius:15px;
+      background:linear-gradient(145deg,#151f37,#101729);
+      box-shadow:0 14px 34px #02040c55,inset 0 1px 0 #ffffff0c;
+    }
+    #rishabh-portfolio-preview .rp-education-row time,
+    #rishabh-portfolio-preview .rp-cert a{
+      border-color:#4c5d83;
+      border-radius:999px;
+      background:#1b2742;
+      color:#a5e9e3;
+    }
+    #rishabh-portfolio-preview .rp-contact{
+      border:1px solid #474b7b;
+      border-radius:0;
+      background:
+        radial-gradient(ellipse at 85% 20%,#7362ff35,transparent 42%),
+        linear-gradient(120deg,#11182c,#1b2143 58%,#123038);
+    }
+    #rishabh-portfolio-preview .rp-contact h2 span{color:#9ff5e7}
+    #rishabh-portfolio-preview .rp-contact-method{
+      border-color:#465477;
+      border-radius:14px;
+      background:linear-gradient(145deg,#1b2743dd,#111a2eee);
+    }
+    #rishabh-portfolio-preview .rp-contact-method:hover{
+      border-color:#77f3dd;
+      box-shadow:0 14px 30px #04102b88,0 0 22px #41d9f033;
+    }
+    #rishabh-portfolio-preview .rp-contact-icon{
+      border-radius:12px;
+      background:linear-gradient(145deg,#27385a,#1c3041);
+      color:#8cefe1;
+    }
+    #rishabh-portfolio-preview .rp-footer{
+      border-top-color:#28334f;
+      background:#080d1b;
+      color:#8290aa;
+    }
+    @media(max-width:700px){
+      #rishabh-portfolio-preview .rp-header{height:64px}
+      #rishabh-portfolio-preview .rp-hero{min-height:0;padding:40px 20px}
+      #rishabh-portfolio-preview .rp-contact-methods{grid-template-columns:1fr}
+    }
+  </style>
+<header class="rp-header">
     <a class="rp-brand" href="#rp-home"><span class="rp-mark">RM</span>Rishabh S Malode</a>
     <nav class="rp-nav"><a href="#rp-about">Skills</a><a href="#rp-work">Projects</a><a href="#rp-experience">Experience</a><a href="#rp-education">Education</a></nav>
     <a class="rp-contact-link" href="#rp-contact">Contact ↗</a>
@@ -276,11 +531,217 @@
 
 </div>
 
+<!-- Reordering controls removed.
+(() => {
+  const root = document.getElementById("rishabh-portfolio-preview");
+  if (!root) return;
 
+  const sectionDefinitions = [
+    { id: "rp-home", label: "Introduction", elements: [root.querySelector("#rp-home"), root.querySelector(".rp-strip")] },
+    { id: "rp-about", label: "Skills", elements: [root.querySelector("#rp-about")] },
+    { id: "rp-work", label: "Projects", elements: [root.querySelector("#rp-work")] },
+    { id: "rp-experience", label: "Experience", elements: [root.querySelector("#rp-experience")] },
+    { id: "rp-education", label: "Education", elements: [root.querySelector("#rp-education")] },
+    { id: "rp-contact", label: "Contact", elements: [root.querySelector("#rp-contact")] }
+  ];
+  const validDefinitions = sectionDefinitions.filter(({ elements }) => elements.every(Boolean));
+  const wrappers = validDefinitions.map(({ id, label, elements }) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = "rp-movable-section";
+    wrapper.dataset.sectionId = id;
+    wrapper.setAttribute("aria-label", `${label} section`);
+    elements[0].before(wrapper);
+    elements.forEach((element) => wrapper.append(element));
 
+    const controls = document.createElement("div");
+    controls.className = "rp-move-controls";
 
+    const caption = document.createElement("span");
+    caption.textContent = "MOVE";
+    controls.append(caption);
 
+    const dragHandle = document.createElement("button");
+    dragHandle.type = "button";
+    dragHandle.className = "rp-drag-handle";
+    dragHandle.textContent = "⠿";
+    dragHandle.draggable = true;
+    dragHandle.setAttribute("aria-label", `Drag to move ${label} section`);
+    dragHandle.title = "Drag this handle to reorder the section";
+    dragHandle.dataset.dragHandle = "";
+    controls.append(dragHandle);
 
+    const moveUp = document.createElement("button");
+    moveUp.type = "button";
+    moveUp.textContent = "↑";
+    moveUp.setAttribute("aria-label", `Move ${label} section earlier`);
+    moveUp.title = "Move section earlier";
+    moveUp.dataset.move = "up";
+    controls.append(moveUp);
+
+    const moveDown = document.createElement("button");
+    moveDown.type = "button";
+    moveDown.textContent = "↓";
+    moveDown.setAttribute("aria-label", `Move ${label} section later`);
+    moveDown.title = "Move section later";
+    moveDown.dataset.move = "down";
+    controls.append(moveDown);
+
+    if (id === "rp-home") {
+      const reset = document.createElement("button");
+      reset.type = "button";
+      reset.className = "rp-reset-order";
+      reset.textContent = "Reset";
+      reset.title = "Restore the original section order";
+      reset.setAttribute("aria-label", "Restore the original section order");
+      reset.dataset.resetOrder = "";
+      controls.append(reset);
+    }
+
+    wrapper.prepend(controls);
+    return wrapper;
+  });
+
+  if (!wrappers.length) return;
+
+  const status = document.createElement("div");
+  status.className = "rp-order-status";
+  status.hidden = true;
+  status.setAttribute("role", "status");
+  status.setAttribute("aria-live", "polite");
+  root.append(status);
+
+  const storageKey = "rishabh-portfolio-section-order-v1";
+  const originalOrder = wrappers.slice();
+  let draggedSection = null;
+  let statusTimer;
+
+  function showStatus(message) {
+    status.textContent = message;
+    status.hidden = false;
+    clearTimeout(statusTimer);
+    statusTimer = setTimeout(() => { status.hidden = true; }, 3200);
+  }
+
+  function getCurrentOrder() {
+    return Array.from(root.querySelectorAll(".rp-movable-section"));
+  }
+
+  function updateControls() {
+    const current = getCurrentOrder();
+    current.forEach((wrapper, index) => {
+      const up = wrapper.querySelector('[data-move="up"]');
+      const down = wrapper.querySelector('[data-move="down"]');
+      up.disabled = index === 0;
+      down.disabled = index === current.length - 1;
+    });
+  }
+
+  function saveOrder(message) {
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(getCurrentOrder().map((wrapper) => wrapper.dataset.sectionId)));
+      showStatus(message);
+    } catch (error) {
+      showStatus("The section order changed, but this browser could not save it.");
+      console.error("Could not save the portfolio section order.", error);
+    }
+  }
+
+  function moveSection(wrapper, direction) {
+    const current = getCurrentOrder();
+    const index = current.indexOf(wrapper);
+    const target = current[index + direction];
+    if (!target) return;
+    if (direction < 0) target.before(wrapper);
+    else target.after(wrapper);
+    updateControls();
+    saveOrder(`${wrapper.getAttribute("aria-label")} moved. Order saved on this device.`);
+  }
+
+  function restoreOrder() {
+    const footer = root.querySelector(".rp-footer");
+    originalOrder.forEach((wrapper) => root.insertBefore(wrapper, footer));
+    updateControls();
+    try {
+      localStorage.removeItem(storageKey);
+      showStatus("Original section order restored.");
+    } catch (error) {
+      showStatus("Original order restored, but the saved order could not be cleared.");
+      console.error("Could not clear the saved portfolio section order.", error);
+    }
+  }
+
+  try {
+    const storedOrder = JSON.parse(localStorage.getItem(storageKey) || "null");
+    const ids = wrappers.map((wrapper) => wrapper.dataset.sectionId);
+    if (Array.isArray(storedOrder) && storedOrder.length === ids.length &&
+        new Set(storedOrder).size === ids.length && storedOrder.every((id) => ids.includes(id))) {
+      const footer = root.querySelector(".rp-footer");
+      storedOrder.forEach((id) => root.insertBefore(wrappers.find((wrapper) => wrapper.dataset.sectionId === id), footer));
+    } else if (storedOrder !== null) {
+      showStatus("The saved section order was invalid; the original layout is shown.");
+    }
+  } catch (error) {
+    showStatus("Saved section order is unavailable in this browser.");
+    console.error("Could not load the saved portfolio section order.", error);
+  }
+
+  root.addEventListener("click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    const wrapper = button.closest(".rp-movable-section");
+    if (button.hasAttribute("data-reset-order")) {
+      restoreOrder();
+    } else if (wrapper && button.dataset.move === "up") {
+      moveSection(wrapper, -1);
+    } else if (wrapper && button.dataset.move === "down") {
+      moveSection(wrapper, 1);
+    }
+  });
+
+  root.addEventListener("dragstart", (event) => {
+    if (!event.target.closest("[data-drag-handle]")) return;
+    draggedSection = event.target.closest(".rp-movable-section");
+    if (!draggedSection) return;
+    event.dataTransfer.effectAllowed = "move";
+    event.dataTransfer.setData("text/plain", draggedSection.dataset.sectionId);
+    const section = draggedSection;
+    requestAnimationFrame(() => section.classList.add("rp-is-dragging"));
+  });
+
+  root.addEventListener("dragover", (event) => {
+    const target = event.target.closest(".rp-movable-section");
+    if (!draggedSection || !target || target === draggedSection) return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = "move";
+    target.classList.add("rp-drop-target");
+  });
+
+  root.addEventListener("dragleave", (event) => {
+    const target = event.target.closest(".rp-movable-section");
+    if (target && !target.contains(event.relatedTarget)) target.classList.remove("rp-drop-target");
+  });
+
+  root.addEventListener("drop", (event) => {
+    const target = event.target.closest(".rp-movable-section");
+    if (!draggedSection || !target || target === draggedSection) return;
+    event.preventDefault();
+    const placeAfter = event.clientY > target.getBoundingClientRect().top + target.offsetHeight / 2;
+    if (placeAfter) target.after(draggedSection);
+    else target.before(draggedSection);
+    updateControls();
+    saveOrder(`${draggedSection.getAttribute("aria-label")} moved. Order saved on this device.`);
+  });
+
+  root.addEventListener("dragend", () => {
+    root.querySelectorAll(".rp-movable-section").forEach((wrapper) => {
+      wrapper.classList.remove("rp-is-dragging", "rp-drop-target");
+    });
+    draggedSection = null;
+  });
+
+  updateControls();
+})();
+Reordering controls removed. -->
 
 </body>
 </html>
